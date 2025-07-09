@@ -1,20 +1,20 @@
 import { Logo } from "@once-ui-system/core";
 
 const person = {
-  firstName: "Selene",
-  lastName: "Yu",
+  firstName: "Julia",
+  lastName: "Grellmann",
   get name() {
     return `${this.firstName} ${this.lastName}`;
   },
-  role: "Design Engineer",
+  role: "Projetista Civíl",
   avatar: "/images/avatar.jpg",
-  email: "example@gmail.com",
-  location: "Asia/Jakarta", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
-  languages: ["English", "Bahasa"], // optional: Leave the array empty if you don't want to display languages
+  email: "grellmann.ju21@gmail.com",
+  location: "Brazil/São Paulo", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
+  languages: ["Portugês", "Ingles"], // optional: Leave the array empty if you don't want to display languages
 };
 
 const newsletter = {
-  display: true,
+  display: false,
   title: <>Subscribe to {person.firstName}'s Newsletter</>,
   description: (
     <>
@@ -28,19 +28,14 @@ const social = [
   // Links are automatically displayed.
   // Import new icons in /once-ui/icons.ts
   {
-    name: "GitHub",
-    icon: "github",
-    link: "https://github.com/once-ui-system/nextjs-starter",
-  },
-  {
     name: "LinkedIn",
     icon: "linkedin",
-    link: "https://www.linkedin.com/company/once-ui/",
+    link: "https://www.linkedin.com/in/julia-grellmann/",
   },
   {
-    name: "Threads",
-    icon: "threads",
-    link: "https://www.threads.com/@once_ui",
+    name: "WhatsApp",
+    icon: "whatsapp",
+    link: "https://wa.me/+555193287291",
   },
   {
     name: "Email",
@@ -55,7 +50,7 @@ const home = {
   label: "Home",
   title: `${person.name}'s Portfolio`,
   description: `Portfolio website showcasing my work as a ${person.role}`,
-  headline: <>Building bridges between design and code</>,
+  headline: <>Projetos que funcionam, obras que acontecem.</>,
   featured: {
     display: true,
     title: <>Recent project: <strong className="ml-4">Once UI</strong></>,
@@ -63,8 +58,7 @@ const home = {
   },
   subline: (
     <>
-      I'm Selene, a design engineer at <Logo icon="/trademarks/wordmark-dark.svg" style={{ display: "inline-flex", top: "0.25em", marginLeft: "-0.25em" }}/>, where I craft intuitive
-      <br /> user experiences. After hours, I build my own projects.
+      Substituindo complicação por clareza: da planta ao cronograma.
     </>
   ),
 };
@@ -82,7 +76,7 @@ const about = {
     display: true,
   },
   calendar: {
-    display: true,
+    display: false,
     link: "https://cal.com",
   },
   intro: {
@@ -90,53 +84,88 @@ const about = {
     title: "Introduction",
     description: (
       <>
-        Selene is a Jakarta-based design engineer with a passion for transforming complex challenges
-        into simple, elegant design solutions. Her work spans digital interfaces, interactive
-        experiences, and the convergence of design and technology.
+        Sou estudante de Engenharia Civil com experiência prática desde 2022 em obras residenciais e comerciais. Atuei em diversas fases do canteiro:
+        medições, controle de materiais, atualização de projetos, cronogramas, orçamentos e contato com fornecedores. Também participei de projetos
+        acadêmicos e sociais no PET Civil UFRGS. Hoje, busco unir o conhecimento técnico da execução com a elaboração de projetos completos,
+        otimizados e bem apresentados.
       </>
     ),
   },
   work: {
     display: true, // set to false to hide this section
-    title: "Work Experience",
+    title: "Experiências",
     experiences: [
       {
-        company: "FLY",
-        timeframe: "2022 - Present",
-        role: "Senior Design Engineer",
+        company: "Construtora Granada",
+        timeframe: "2024 - Present",
+        role: "Estágiaria de Engenharia Civíl",
         achievements: [
           <>
-            Redesigned the UI/UX for the FLY platform, resulting in a 20% increase in user
-            engagement and 30% faster load times.
+            Atuo no acompanhamento direto da execução da obra, realizando medições, preenchendo diários e
+            acompanhando os serviços por meio das FVS (Fichas de Verificação de Serviço) e Instruções de Trabalho.
           </>,
           <>
-            Spearheaded the integration of AI tools into design workflows, enabling designers to
-            iterate 50% faster.
+            Participei ativamente da solicitação, recebimento e controle de materiais, garantindo o fluxo eficiente de insumos.
+            Também fui responsável pela atualização e controle de projetos, além do monitoramento do cronograma físico-financeiro.
           </>,
+          <>
+            Realizei orçamentos, levantamentos e contribuí para o planejamento das etapas construtivas com foco em organização e previsibilidade.
+          </>
         ],
         images: [
           // optional: leave the array empty if you don't want to display images
-          {
-            src: "/images/projects/project-01/cover-01.jpg",
-            alt: "Once UI Project",
-            width: 16,
-            height: 9,
-          },
         ],
       },
       {
-        company: "Creativ3",
-        timeframe: "2018 - 2022",
-        role: "Lead Designer",
+        company: "Rede Pires",
+        timeframe: "2023 - 2024",
+        role: "Estágiaria de Engenharia Civíl",
         achievements: [
           <>
-            Developed a design system that unified the brand across multiple platforms, improving
-            design consistency by 40%.
+            Trabalhei com inspeção e acompanhamento de serviços, verificando conformidade com normas técnicas e legislações.
           </>,
           <>
-            Led a cross-functional team to launch a new product line, contributing to a 15% increase
-            in overall company revenue.
+            Estive em contato direto com prestadores de serviço, fornecedores e órgãos públicos, auxiliando na articulação e execução das etapas da obra.
           </>,
+          <>
+            Controlei documentos e projetos em andamento, solicitei materiais e providenciei recursos para execução.
+            Também participei da conferência de serviços para validação de medições.
+          </>
+        ],
+        images: [],
+      },
+      {
+        company: "Aikon Empreendimentos",
+        timeframe: "2023 - 2023",
+        role: "Estágiaria de Engenharia Civíl",
+        achievements: [
+          <>
+            Acompanhei rotinas de obra, com foco em medições, controle de materiais e atualização de projetos. Fui inserida na gestão de qualidade de obras,
+            desenvolvendo conhecimento sobre as ISO 9001 e 14001, com a utilização do Mobuss para acompanhamento e controle de qualidade.
+          </>,
+          <>
+            Fui responsável por manter os registros de campo através do diário de obra, além de acompanhar a
+            execução em loco e prestar apoio à equipe técnica em diversas frentes operacionais.
+          </>
+        ],
+        images: [],
+      },
+      {
+        company: "Construtora Belmais",
+        timeframe: "2022 - 2023",
+        role: "Estágiaria de Engenharia Civíl",
+        achievements: [
+          <>
+            Tive minha primeira imersão prática em obras civis, atuando diretamente no acompanhamento da execução e
+            nos bastidores do planejamento de um empreendimento residencial de quatro torres de 20 pavimentos.
+          </>,
+          <>
+            Participei da realização de medições, do controle de materiais recebidos e da conferência de serviços em campo,
+            garantindo conformidade com o projeto e qualidade da execução
+          </>,
+          <>
+            Fui responsável por atualizar projetos e documentos técnicos no canteiro, mantendo a equipe alinhada com as revisões e alterações executivas.
+          </>
         ],
         images: [],
       },
@@ -144,53 +173,53 @@ const about = {
   },
   studies: {
     display: true, // set to false to hide this section
-    title: "Studies",
+    title: "Formação",
     institutions: [
       {
-        name: "University of Jakarta",
-        description: <>Studied software engineering.</>,
-      },
-      {
-        name: "Build the Future",
-        description: <>Studied online marketing and personal branding.</>,
-      },
+        name: "Univali",
+        description: <>Bacharelado Engenharia Civíl (2023- cursando).</>,
+      }
     ],
   },
   technical: {
     display: true, // set to false to hide this section
-    title: "Technical skills",
+    title: "Habilidades Técnicas",
     skills: [
       {
-        title: "Figma",
-        description: <>Able to prototype in Figma with Once UI with unnatural speed.</>,
+        title: "AutoCAD",
+        description: <>Desenvolvimento de plantas técnicas, detalhamentos e compatibilização de projetos.</>,
         // optional: leave the array empty if you don't want to display images
-        images: [
-          {
-            src: "/images/projects/project-01/cover-02.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-          {
-            src: "/images/projects/project-01/cover-03.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-        ],
+        images: [],
       },
       {
-        title: "Next.js",
-        description: <>Building next gen apps with Next.js + Once UI + Supabase.</>,
+        title: "Revit",
+        description: <>Modelagem básica em BIM e organização de elementos construtivos.</>,
         // optional: leave the array empty if you don't want to display images
-        images: [
-          {
-            src: "/images/projects/project-01/cover-04.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-        ],
+        images: [],
+      },
+      {
+        title: "SketchUp + Kerkythea",
+        description: <>Modelagem 3D e renderização de ambientes.</>,
+        // optional: leave the array empty if you don't want to display images
+        images: [],
+      },
+            {
+        title: "Mobuss e Sienge",
+        description: <>Controle de obras, medições e atualizações de cronograma.</>,
+        // optional: leave the array empty if you don't want to display images
+        images: [],
+      },
+            {
+        title: "Photoshop",
+        description: <>Edição de imagens, plantas humanizadas e pós-produção de renders.</>,
+        // optional: leave the array empty if you don't want to display images
+        images: [],
+      },
+            {
+        title: "Promob",
+        description: <>Modelagem básica para mobiliário e interiores.</>,
+        // optional: leave the array empty if you don't want to display images
+        images: [],
       },
     ],
   },
