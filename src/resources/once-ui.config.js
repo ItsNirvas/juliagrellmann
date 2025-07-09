@@ -62,8 +62,8 @@ const fonts = {
 const style = {
   theme: "system", // dark | light | system
   neutral: "gray", // sand | gray | slate | custom
-  brand: "cyan", // blue | indigo | violet | magenta | pink | red | orange | yellow | moss | green | emerald | aqua | cyan | custom
-  accent: "red", // blue | indigo | violet | magenta | pink | red | orange | yellow | moss | green | emerald | aqua | cyan | custom
+  brand: "magenta", // blue | indigo | violet | magenta | pink | red | orange | yellow | moss | green | emerald | aqua | cyan | custom
+  accent: "blue", // blue | indigo | violet | magenta | pink | red | orange | yellow | moss | green | emerald | aqua | cyan | custom
   solid: "contrast", // color | contrast
   solidStyle: "flat", // flat | plastic
   border: "playful", // rounded | playful | conservative
@@ -88,7 +88,7 @@ const dataStyle = {
 
 const effects = {
   mask: {
-    cursor: false,
+    cursor: true,
     x: 50,
     y: 0,
     radius: 100,
@@ -118,7 +118,7 @@ const effects = {
     height: "0.25rem",
   },
   lines: {
-    display: false,
+    display: true,
     opacity: 100,
     color: "neutral-alpha-weak",
     size: "16",

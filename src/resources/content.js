@@ -6,11 +6,11 @@ const person = {
   get name() {
     return `${this.firstName} ${this.lastName}`;
   },
-  role: "Projetista Civíl",
+  role: "Projetista Civil",
   avatar: "/images/avatar.jpg",
   email: "grellmann.ju21@gmail.com",
-  location: "Brazil/São Paulo", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
-  languages: ["Portugês", "Ingles"], // optional: Leave the array empty if you don't want to display languages
+  location: "Brasil/São Paulo", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
+  languages: ["Português", "Inglês"], // optional: Leave the array empty if you don't want to display languages
 };
 
 const newsletter = {
@@ -48,8 +48,8 @@ const home = {
   path: "/",
   image: "/images/og/home.jpg",
   label: "Home",
-  title: `${person.name}'s Portfolio`,
-  description: `Portfolio website showcasing my work as a ${person.role}`,
+  title: `${person.name}'s Portfólio`,
+  description: `Portfólio mmostrando meu trabalho coom ${person.role}`,
   headline: <>Projetos que funcionam, obras que acontecem.</>,
   featured: {
     display: true,
@@ -65,9 +65,9 @@ const home = {
 
 const about = {
   path: "/about",
-  label: "About",
-  title: `About – ${person.name}`,
-  description: `Meet ${person.name}, ${person.role} from ${person.location}`,
+  label: "Sobre",
+  title: `Sobre – ${person.name}`,
+  description: `Conheça ${person.name}, ${person.role} de ${person.location}`,
   tableOfContent: {
     display: true,
     subItems: false,
@@ -81,7 +81,7 @@ const about = {
   },
   intro: {
     display: true,
-    title: "Introduction",
+    title: "Introdução",
     description: (
       <>
         Sou estudante de Engenharia Civil com experiência prática desde 2022 em obras residenciais e comerciais. Atuei em diversas fases do canteiro:
@@ -97,8 +97,8 @@ const about = {
     experiences: [
       {
         company: "Construtora Granada",
-        timeframe: "2024 - Present",
-        role: "Estágiaria de Engenharia Civíl",
+        timeframe: "2024 - Atualmente",
+        role: "Estagiária de Engenharia Civil",
         achievements: [
           <>
             Atuo no acompanhamento direto da execução da obra, realizando medições, preenchendo diários e
@@ -119,7 +119,7 @@ const about = {
       {
         company: "Rede Pires",
         timeframe: "2023 - 2024",
-        role: "Estágiaria de Engenharia Civíl",
+        role: "Estagiária de Engenharia Civil",
         achievements: [
           <>
             Trabalhei com inspeção e acompanhamento de serviços, verificando conformidade com normas técnicas e legislações.
@@ -137,7 +137,7 @@ const about = {
       {
         company: "Aikon Empreendimentos",
         timeframe: "2023 - 2023",
-        role: "Estágiaria de Engenharia Civíl",
+        role: "Estagiária de Engenharia Civil",
         achievements: [
           <>
             Acompanhei rotinas de obra, com foco em medições, controle de materiais e atualização de projetos. Fui inserida na gestão de qualidade de obras,
@@ -153,7 +153,7 @@ const about = {
       {
         company: "Construtora Belmais",
         timeframe: "2022 - 2023",
-        role: "Estágiaria de Engenharia Civíl",
+        role: "Estagiária de Engenharia Civil",
         achievements: [
           <>
             Tive minha primeira imersão prática em obras civis, atuando diretamente no acompanhamento da execução e
@@ -177,7 +177,7 @@ const about = {
     institutions: [
       {
         name: "Univali",
-        description: <>Bacharelado Engenharia Civíl (2023- cursando).</>,
+        description: <>Bacharelado Engenharia Civil (2023 - cursando)</>,
       }
     ],
   },
@@ -198,7 +198,7 @@ const about = {
         images: [],
       },
       {
-        title: "SketchUp + Kerkythea",
+        title: "SketchUp e Kerkythea",
         description: <>Modelagem 3D e renderização de ambientes.</>,
         // optional: leave the array empty if you don't want to display images
         images: [],
@@ -236,18 +236,18 @@ const blog = {
 
 const work = {
   path: "/work",
-  label: "Work",
-  title: `Projects – ${person.name}`,
-  description: `Design and dev projects by ${person.name}`,
+  label: "Projetos",
+  title: `Projeto – ${person.name}`,
+  description: `Projetos feitos por ${person.name}`,
   // Create new project pages by adding a new .mdx file to app/blog/posts
   // All projects will be listed on the /home and /work routes
 };
 
 const gallery = {
   path: "/gallery",
-  label: "Gallery",
-  title: `Photo gallery – ${person.name}`,
-  description: `A photo collection by ${person.name}`,
+  label: "Galeria",
+  title: `Galeria de Fotos – ${person.name}`,
+  description: `Coleção de fotos por ${person.name}`,
   // Images by https://lorant.one
   // These are placeholder images, replace with your own
   images: [
