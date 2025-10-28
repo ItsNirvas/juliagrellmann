@@ -49,7 +49,7 @@ const home = {
   image: "/images/og/home.jpg",
   label: "Home",
   title: `${person.name}'s Portfólio`,
-  description: `Portfólio mmostrando meu trabalho coom ${person.role}`,
+  description: `Portfólio mmostrando meu trabalho como ${person.role}`,
   headline: <>Projetos que funcionam, obras que acontecem.</>,
   featured: {
     display: true,
