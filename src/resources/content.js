@@ -112,6 +112,9 @@ const about = {
             Apoio no controle de materiais e serviços. Monitoramento das etapa
             construtivas e comunicação com equipes de campo e escritório.
           </>
+        ],
+        images: [
+          
         ]
       },
       {
