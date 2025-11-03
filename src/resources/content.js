@@ -54,7 +54,7 @@ const home = {
   featured: {
     display: true,
     title: <>Recent project: <strong className="ml-4">Alteração Arquitetônica</strong></>,
-    href: "/work/alteracaoArquitetonica",
+    href: "/work/portariaCorporativa",
   },
   subline: (
     <>
