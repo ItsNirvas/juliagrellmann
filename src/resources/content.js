@@ -96,8 +96,27 @@ const about = {
     title: "Experiências",
     experiences: [
       {
+        company: "Self-employed",
+        timeframe: "2025 - atualmente",
+        role: "Auxiliar de Engenharia Civil",
+        achievements: [
+          <>
+            Acompanhamento técnico de obras civis, conformidade com
+            cronograma, orçamento e padrões de qualidade 
+          </>,
+          <>
+            Elaboração de relatórios detalhados do progresso, incluindo registros
+            com fotos e análises de desempenho.
+          </>,
+          <>
+            Apoio no controle de materiais e serviços. Monitoramento das etapa
+            construtivas e comunicação com equipes de campo e escritório.
+          </>
+        ]
+      },
+      {
         company: "Construtora Granada",
-        timeframe: "2024 - Atualmente",
+        timeframe: "2024 - 2025",
         role: "Estagiária de Engenharia Civil",
         achievements: [
           <>
