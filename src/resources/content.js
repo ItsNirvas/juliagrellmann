@@ -53,8 +53,8 @@ const home = {
   headline: <>Projetos que funcionam, obras que acontecem.</>,
   featured: {
     display: true,
-    title: <>Recent project: <strong className="ml-4">Alteração Arquitetônica</strong></>,
-    href: "/work/portariaCorporativa",
+    title: <>Recent project: <strong className="ml-4">Redefinição de Layout Interno</strong></>,
+    href: "/work/otimizacaoApartamento",
   },
   subline: (
     <>
@@ -199,7 +199,11 @@ const about = {
     institutions: [
       {
         name: "Univali",
-        description: <>Bacharelado Engenharia Civil (2023 - cursando)</>,
+        description: <>Bacharelado Engenharia Civil (2023 - 2025)</>,
+      },
+      {
+        name: "Unip",
+        description: <>Bacharelado Engenharia Civil (2026 - cursando)</>,
       }
     ],
   },
